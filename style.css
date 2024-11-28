@@ -93,6 +93,26 @@ input {
     border-radius: 10px;
     transition: all 0.3s ease;
 }
+
+body.dark-mode input {
+    background-color: var(--card-bg-dark);
+ }
+
+input:focus {
+    outline: 2px solid currentColor;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+   
+   
+   
    
    
    
