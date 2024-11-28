@@ -33,5 +33,35 @@ body {
     min-height: 100vh;
     color: var(--text-primary-light);
     background: var(--bg-primary-light);
+    background-image: url('https://images.unsplash.com/photo-1561484930-998b6a7b22e8?auto=format&fit=crop&q=80');
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ transition: all 0.3s ease;
    
 }
+
+body.dark-mode {
+    color: var(--text-primary-dark);
+    background: var(--bg-primary-dark);
+ }
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 112rem;
+    gap: 4rem;
+    padding: 6rem;
+    background: var(--bg-secondary-light);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+    animation: fadeIn 0.8s ease-out;
+ }
+   
+   
