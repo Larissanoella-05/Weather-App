@@ -63,5 +63,11 @@ body.dark-mode {
     transition: all 0.3s ease;
     animation: fadeIn 0.8s ease-out;
  }
+
+body.dark-mode .app {
+    background: var(--bg-secondary-dark);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+   
    
    
