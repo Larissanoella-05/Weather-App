@@ -126,6 +126,11 @@ input:focus {
     animation: fadeIn 0.5s ease-out;
     animation-fill-mode: both;
 }
+
+body.dark-mode .day {
+    background-color: var(--card-bg-dark);
+   }
+   
    
    
    
