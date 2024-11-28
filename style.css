@@ -111,6 +111,22 @@ input:focus {
     justify-content: center;
  }
    
+.day {
+    background-color: var(--card-bg-light);
+    padding: 2rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    animation: fadeIn 0.5s ease-out;
+    animation-fill-mode: both;
+}
+   
    
    
    
