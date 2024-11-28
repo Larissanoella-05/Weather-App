@@ -130,8 +130,28 @@ input:focus {
 body.dark-mode .day {
     background-color: var(--card-bg-dark);
    }
+
+.day:nth-child(1) {
+    animation-delay: 0.1s;
+   }
+.day:nth-child(2) {
+    animation-delay: 0.2s;
+   }
+.day:nth-child(3) {
+    animation-delay: 0.3s;
+   }
+.day:nth-child(4) {
+    animation-delay: 0.4s;
+   }
+.day:nth-child(5) {
+    animation-delay: 0.5s;
+   }
    
-   
+.day:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+   }
+      
    
    
    
