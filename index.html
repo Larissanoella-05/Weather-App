@@ -58,15 +58,6 @@
        const themeToggle = document.querySelector('.theme-toggle');
 
 
-       // Check system preference initially
-       if (
-         window.matchMedia &&
-         window.matchMedia('(prefers-color-scheme: dark)').matches
-       ) {
-         document.body.classList.add('dark-mode');
-       }
-
-
        // Check for saved theme preference
        const savedTheme = localStorage.getItem('theme');
        if (savedTheme) {
