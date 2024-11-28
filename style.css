@@ -26,5 +26,12 @@
    html {
     font-size: 62.5%;
    }
+
+body {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 2rem;
+    min-height: 100vh;
+    color: var(--text-primary-light);
+    background: var(--bg-primary-light);
    
-   
+}
