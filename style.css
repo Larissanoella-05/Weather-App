@@ -167,6 +167,13 @@ body.dark-mode .day {
 body.dark-mode .day.important {
     background-color: var(--card-important-dark);
 }
+
+.loader {
+    font-size: 2.4rem;
+    font-weight: 700;
+    animation: spin 1.5s linear infinite;
+}
+   
    
    
    
