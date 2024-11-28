@@ -68,6 +68,15 @@ body.dark-mode .app {
     background: var(--bg-secondary-dark);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
+
+h1 {
+    font-weight: 700;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+ }
+   
    
    
    
