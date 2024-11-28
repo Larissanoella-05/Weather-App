@@ -173,6 +173,26 @@ body.dark-mode .day.important {
     font-weight: 700;
     animation: spin 1.5s linear infinite;
 }
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    padding: 0.8rem;
+    border-radius: 50%;
+    border: none;
+    background: var(--bg-secondary-light);
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
    
    
    
