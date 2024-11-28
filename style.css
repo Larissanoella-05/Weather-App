@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+
+:root {
+ /* Light theme variables */
+ --bg-primary-light: #e6f3ff;
+ --bg-secondary-light: #ffffff;
+ --text-primary-light: #2c3e50;
+ --card-bg-light: #f5f9ff;
+ --card-important-light: #d4e6ff;
