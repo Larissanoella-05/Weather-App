@@ -114,3 +114,9 @@ function displayWeather(weather, location) {
     return icons.get(arr);
   }
  
+  function formatDay(dateStr) {
+    return new Intl.DateTimeFormat('en', {
+      weekday: 'short',
+    }).format(new Date(dateStr));
+  }
+ 
