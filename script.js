@@ -13,4 +13,29 @@ document.addEventListener('DOMContentLoaded', () => {
    localStorage.setItem('location', location);
    fetchWeather(location);
  });
-}
+
+ async function fetchWeather(location) {
+    try {
+      if (location.length < 2) {
+        weatherContainer.innerHTML = '';
+        return;
+      }
+ 
+ 
+      loader.style.display = 'block';
+ 
+ 
+ // Fetch location data
+ const geoRes = await fetch(
+    `https://geocoding-api.open-meteo.com/v1/search?name=${location}`
+  );
+  const geoData = await geoRes.json();
+
+
+  if (!geoData.results) {
+    weatherContainer.innerHTML = `
+      <h2>City "${location}" not found</h2>
+      <p style="text-align: center; margin-top: 1rem;">Please try another location</p>
+    `;
+    return;
+  }
