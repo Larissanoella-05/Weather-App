@@ -10,11 +10,11 @@
  --card-important-light: #d4e6ff;
 
 /* light theme variables */
- --bg-primary-dark: #04040c;
- --bg-secondary-dark: #06060c;
+ --bg-primary-dark: #000000;
+ --bg-secondary-dark: #000000;
  --text-primary-dark: #e0e0e0;
- --card-bg-dark: #04040a;
- --card-important-dark: #020208;
+ --card-bg-dark: #000000;
+ --card-important-dark: #000000;
 }
 
 * {
