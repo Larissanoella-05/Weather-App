@@ -228,6 +228,12 @@ body.dark-mode .theme-toggle .sun-icon {
    body.dark-mode .theme-toggle .moon-icon {
     display: none;
 }
+
+/* Animation for icons */
+.theme-toggle svg {
+    animation: rotateIcon 0.5s ease;
+}
+   
    
    
    
