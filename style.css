@@ -203,6 +203,13 @@ body.dark-mode .day.important {
     height: 24px;
     transition: all 0.3s ease;
 }
+
+.theme-toggle .sun-icon {
+    display: none;
+    stroke: #ff9800;
+   }
+   
+      
    
    
    
