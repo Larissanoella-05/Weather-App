@@ -268,6 +268,19 @@ body {
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
  }
 }
+
+/* Add these keyframes at the end of your file */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+ }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+ }
+}
+   
    
    
    
