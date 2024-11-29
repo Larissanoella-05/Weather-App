@@ -109,3 +109,8 @@ function displayWeather(weather, location) {
       [[96, 99], '⛈'],
     ]);
   
+    const arr = Array.from(icons.keys()).find((key) => key.includes(wmoCode));
+    if (!arr) return 'NOT FOUND';
+    return icons.get(arr);
+  }
+ 
