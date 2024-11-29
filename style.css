@@ -213,6 +213,22 @@ body.dark-mode .day.important {
     display: block;
     stroke: #2c3e50;
 }
+
+/* Dark mode styles for toggle */
+body.dark-mode .theme-toggle {
+    background: var(--bg-secondary-dark);
+}
+   
+   
+body.dark-mode .theme-toggle .sun-icon {
+    display: block;
+}
+   
+   
+   body.dark-mode .theme-toggle .moon-icon {
+    display: none;
+}
+   
    
    
       
