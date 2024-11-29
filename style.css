@@ -47,6 +47,7 @@ body {
 body.dark-mode {
     color: var(--text-primary-dark);
     background: var(--bg-primary-dark);
+    background-image: url(https://images.unsplash.com/photo-1545486332-9e0999c535b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
  }
 
 .app {
