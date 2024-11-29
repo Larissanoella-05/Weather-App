@@ -62,3 +62,37 @@ const displayLocation = `${name} ${convertToFlag(country_code)}`;
   loader.style.display = 'none';
 }
 }
+
+function displayWeather(weather, location) {
+    const {
+      temperature_2m_max: max,
+      temperature_2m_min: min,
+      time: dates,
+      weathercode: codes,
+    } = weather;
+ 
+ 
+    const html = `
+              <h2>Weather ${location}</h2>
+              <ul class="weather">
+                  ${dates
+                    .map(
+                      (date, i) => `
+                      <li class="day">
+                          <span>${getWeather(codes[i])}</span>
+                          <p>${isToday(date) ? 'Today' : formatDay(date)}</p>
+                          <p>${Math.floor(min[i])}° — <strong>${Math.ceil(
+                        max[i]
+                      )}°</strong></p>
+                      </li>
+                  `
+                    )
+                    .join('')}
+              </ul>
+          `;
+ 
+ 
+    weatherContainer.innerHTML = html;
+  }
+
+  
