@@ -207,7 +207,13 @@ body.dark-mode .day.important {
 .theme-toggle .sun-icon {
     display: none;
     stroke: #ff9800;
-   }
+}
+
+.theme-toggle .moon-icon {
+    display: block;
+    stroke: #2c3e50;
+}
+   
    
       
    
