@@ -120,3 +120,7 @@ function displayWeather(weather, location) {
     }).format(new Date(dateStr));
   }
  
+  function isToday(dateStr) {
+    return new Date(dateStr).getDate() === new Date().getDate();
+  }
+ 
