@@ -242,6 +242,19 @@ body.dark-mode .theme-toggle .sun-icon {
       transform: rotate(0) scale(1);
  }
 }
+
+/* Add smooth transition for theme changes */
+body {
+    transition: background-color 0.5s ease, color 0.3s ease;
+}
+   
+   
+   .app,
+   .day,
+   input,
+   .theme-toggle {
+    transition: all 0.3s ease;
+}
    
    
    
