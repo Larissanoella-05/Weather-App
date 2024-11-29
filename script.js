@@ -39,3 +39,26 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     return;
   }
+
+  const { latitude, longitude, timezone, name, country_code } =
+  geoData.results[0];
+const displayLocation = `${name} ${convertToFlag(country_code)}`;
+
+ // Fetch weather data
+ const weatherRes = await fetch(
+    `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&timezone=${timezone}&daily=weathercode,temperature_2m_max,temperature_2m_min`
+  );
+  const weatherData = await weatherRes.json();
+
+
+  displayWeather(weatherData.daily, displayLocation);
+} catch (err) {
+  console.error(err);
+  weatherContainer.innerHTML = `
+    <h2>City not found</h2>
+    <p style="text-align: center; margin-top: 1rem;">Please check the spelling and try again</p>
+  `;
+} finally {
+  loader.style.display = 'none';
+}
+}
