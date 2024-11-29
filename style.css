@@ -34,7 +34,7 @@ body {
     color: var(--text-primary-light);
     background: var(--bg-primary-light);
     background-image: url(https://thumbs.dreamstime.com/b/view-rain-covered-window-sun-setting-front-ai-326458325.jpg);
- background-size: cover;
+ background-size:auto;
  background-position: center;
  background-attachment: fixed;
  display: flex;
