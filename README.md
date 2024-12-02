@@ -1,4 +1,4 @@
-Weathe# SkyMinder
+Weather SkyMinder
 
 
 SkyMinder is a weather forecast application that allows users to search for and view weather updates for various locations. It uses **HTML**, **CSS**, and **JavaScript** for a seamless user experience and integrates APIs for geocoding and weather data.
@@ -22,9 +22,8 @@ SkyMinder is a weather forecast application that allows users to search for and 
   - [HAProxy Configuration](#haproxy-configuration)
   - [Permissions and Directory Setup](#permissions-and-directory-setup)
 7. [Running Locally](#running-locally)
-8. [Code Overview](#code-overview)
-9. [Author](#author)
-10. [Contribution](#contribution)
+8. [Author](#author)
+9. [Contribution](#contribution)
 
 
 ---
