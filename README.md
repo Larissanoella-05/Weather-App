@@ -252,7 +252,7 @@ Clone the repository:
 
 
 ```
-git clone https://github.com/yourusername/Weather-App.git
+git clone https://github.com/larissanoella-05/Weather-App.git
 ```
 
 
@@ -264,32 +264,13 @@ cd Weather-App
 ```
 
 
-Open the application in your browser:
+## Open the application in your browser:
 Open the index.html file in your browser to view the application.
 
 
-Code Overview
-The JavaScript code for SkyMinder uses document.addEventListener('DOMContentLoaded') to initialize the application after the DOM is fully loaded. Key functionalities include:
 
-
-Fetching Geolocation Data:
-Using the Open-Meteo Geocoding API to retrieve latitude, longitude, and other metadata for a city.
-
-
-Fetching Weather Data:
-Using the Open-Meteo Weather Forecast API to display the daily weather forecast for the selected city.
-
-
-Displaying Results:
-Dynamically generating weather data with appropriate icons and temperature ranges.
-
-
-LocalStorage Integration:
-Remembering the last searched city and preloading its weather forecast on page load.
-
-
-Author
-Your Name
+### Author
+Shimirwa larissa Noella
 
 
 Contribution
